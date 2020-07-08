@@ -95,7 +95,7 @@ sh submit.sh
   -yarnconf /home/wen/Desktop/flink_stream_sql_conf/yarnConf_node1
   -flinkJarPath /home/wen/Desktop/dtstack/flink-1.8.1/lib
   -pluginLoadMode shipfile
-  -confProp {\"time.characteristic\":\"eventTime\",\"logLevel\":\"info\"}
+  -confProp {"time.characteristic":"EventTime"}
   -queue c
 ```
 参数具体细节请看[命令参数说明](./config.md)
